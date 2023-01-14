@@ -1,7 +1,7 @@
 ## **Featuring HSD v5 New RPC methods** [**#686**](https://github.com/handshake-org/hsd/pull/686)
 
 - **createbatch**  and **sendbatch** create batch transactions with any number of outputs with any combination of covenants.
-- we'll use it open and/or bid by batch aka. Bulk.
+- we'll use it to open and/or bid by batch aka. Bulk.
 
 Requirements to use the tool:
 
@@ -11,7 +11,7 @@ Requirements to use the tool:
 - [Palmreader Wallet](https://github.com/enginux/palmreader) for CLI
 - Install `npm install -g hs-client`
 
-## **Let's get started**,
+## **Let's get started**
 
 This tutorial utilizes Palmreader combined with Bob in SPV mode because its lite weight.
 
