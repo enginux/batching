@@ -43,11 +43,11 @@ Step 5: Now everything is set-up; we can batch transactions.
 
 Put your desired names you wish to auction inside **open-names.txt** file accordingly based on how it is laid out in the provided sample.
 
-Step 6: Open a CLI in **palmreade** > **bin** > **(open a CLI/CMD inside)** then type **./pamreader** press **Enter.** Choose **(B)ob** and **(S)PV client** then press **Enter** key. Palmreader will load.
+Step 6: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** then type **./pamreader** press **Enter.** Choose **(B)ob** and **(S)PV client** then press **Enter** key. Palmreader will load.
 
 Step 7: From the **Wallet List (W)** choose your desired wallet for this task.
 
-Step 8: Open a CLI in **palmreade** > **bin** > **(open a CLI/CMD inside)** then type `node open.js` and press **Enter**. This will batch open your names inside the open-names.txt file.
+Step 8: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** then type `node open.js` and press **Enter**. This will batch open 100 of your names inside the open-names.txt file.
 
 Step 9: In Palmreader **Debug Log** window monitor and you'll see a keyword " **sending…**" wait until it's done.
 
@@ -66,7 +66,7 @@ Step 14: **Batch Bid all your opened names**. Go to Step 4 and fill with your wa
 
 Step 15: **Copy** all the opened names from the open-names.txt file and **Paste** it inside the bid-names.txt file and **Save**.
 
-Step 16: Open a CLI in **palmreade** > **bin** > **(open a CLI/CMD inside)** then type `node bid.js` and press **Enter**. This will batch bid your names inside the bid-names.txt file.
+Step 16: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** then type `node bid.js` and press **Enter**. This will batch bid 100 of your names inside the bid-names.txt file.
 
 Step 17: You will expect the same process as Step 9, 10, 11, 12 and 13. Delete the already bid names so that it will not duplicate and vice-versa.
 
