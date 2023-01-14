@@ -19,7 +19,7 @@ Step 1: Download the code **batching** and extract the files.
 
 Step 2: Download Palmreader and Bob(if your Bob version isn't batching capable, you need to build it from the source) then extract the code.
 
-- Go to folder **palmreade** > **bin** > **(put all the batching codes)**_ from Step 1.
+- Go to folder **palmreader** > **bin** > **(put all the batching codes)** from Step 1.
 - Go to folder **pamreader**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 - Go to folder **bob-wallet**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 
@@ -70,7 +70,7 @@ Step 16: Open a CLI in **palmreade** > **bin** > **(open a CLI/CMD inside)** the
 
 Step 17: You will expect the same process as Step 9, 10, 11, 12 and 13. Delete the already bid names so that it will not duplicate and vice-versa.
 
-Step 18: Use Bob Wallet to bulk **Reveal** , **Redeem** , **Register** and **Transfer**.
+Step 18: Use Bob Wallet to bulk **Reveal**, **Redeem**, **Register** and **Transfer**.
 
 **Bonus:**
 
