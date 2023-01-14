@@ -51,7 +51,7 @@ Step 8: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** the
 
 Step 9: In Palmreader **Debug Log** window monitor and you'll see a keyword " **sending…**" wait until it's done.
 
-Step 10: After a few seconds( more or less 40), your batch open transaction is now finally "**served…**" based on the monitor **Debug Log** or **Wallet History** palmreaderwindows.
+Step 10: After a few seconds( more or less 40), your batch open transaction is now finally "**served…**" based on the monitor **Debug Log** or **Wallet History** palmreader windows.
 
 Step 11: Inside **open-names.txt** delete or remove the first 100 so that next following names can be open. Save the edited file and execute the same sequence in Step 8. **Repeat until all your names are successfully opened**.
 
