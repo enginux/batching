@@ -84,6 +84,8 @@ Step 18: Use Bob Wallet to bulk **Reveal**, **Redeem**, **Register** and **Trans
 - If your wallet didn't sync (stacked at certain %), probably it's broken. Select your wallet in palmreader and execute the code `node address.js`. When done, **restart** palmreader.
 - Use [Bob Multisig](https://discord.com/channels/822591034202521641/822591754477371443/1039817135507128370). Means your multiple wallet accounts will approve a certain transaction.
 
+Note: to avoid error, don't use Palmreader and Bob at the same time.
+
 ## Contributing
 Contributions are welcome!
 
