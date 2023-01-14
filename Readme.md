@@ -20,7 +20,7 @@ Step 1: Download the code **batching** and extract the files.
 Step 2: Download Palmreader and Bob(if your Bob version isn't batching capable, you need to build it from the source) then extract the code.
 
 - Go to folder **palmreader** > **bin** > **(put all the batching codes)** from Step 1.
-- Go to folder **pamreader**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
+- Go to folder **palmreader**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 - Go to folder **bob-wallet**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 
 
@@ -43,7 +43,7 @@ Step 5: Now everything is set-up; we can batch transactions.
 
 Put your desired names you wish to auction inside **open-names.txt** file accordingly based on how it is laid out in the provided sample.
 
-Step 6: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** then type **./pamreader** press **Enter.** Choose **(B)ob** and **(S)PV client** then press **Enter** key. Palmreader will load.
+Step 6: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** then type **./palmreader** press **Enter.** Choose **(B)ob** and **(S)PV client** then press **Enter** key. Palmreader will load.
 
 Step 7: From the **Wallet List (W)** choose your desired wallet for this task.
 
@@ -53,7 +53,7 @@ Step 9: In Palmreader **Debug Log** window monitor and you'll see a keyword " **
 
 Step 10: After a few seconds( more or less 40), your batch open transaction is now finally "**served…**" based on the monitor **Debug Log** or **Wallet History** palmreaderwindows.
 
-Step 11: Inside **open-names.tx** t delete or remove the first 100 so that next following names can be open. Save the edited file and execute the same sequence in Step 8. **Repeat until all your names are successfully opened**.
+Step 11: Inside **open-names.txt** delete or remove the first 100 so that next following names can be open. Save the edited file and execute the same sequence in Step 8. **Repeat until all your names are successfully opened**.
 
 Step 12: Closed palmreader by pressing **Ctrl+C** or **Q**.
 
@@ -82,7 +82,7 @@ Step 18: Use Bob Wallet to bulk **Reveal**, **Redeem**, **Register** and **Trans
 - For bulk bid wallets. Limit it up-to 5K fresh transactions.
 - For vault wallet(means secured and doesn't transact or connect to third party softwares). Limit it up-to 10K names.
 - If your wallet didn't sync (stacked at certain %), probably it's broken. Select your wallet in palmreader and execute the code `node address.js`. When done, **restart** palmreader.
-- Use Bob Multisig. Means your multiple wallet accounts will approve a certain transaction.
+- Use [Bob Multisig](https://discord.com/channels/822591034202521641/822591754477371443/1039817135507128370). Means your multiple wallet accounts will approve a certain transaction.
 
 ## Contributing
 Contributions are welcome!
