@@ -8,7 +8,7 @@ Requirements to use the tool:
 - PC with node [\>= 14.0.0](https://github.com/handshake-org/hsd/blob/6314c1aa08484be6d304d251b7f309f6e6a664ac/package.json#L20)
 - CMD/CLI
 - [Bob Wallet](https://github.com/kyokan/bob-wallet/releases) for GUI
-- [Palmreader Wallet](https://github.com/enginux/palmreader) for CLI
+- [Palmreader Wallet](https://github.com/pinheadmz/palmreader) for CLI
 - Install `npm install -g hs-client`
 
 ## **Let's get started**
@@ -76,6 +76,7 @@ Step 18: Use Bob Wallet to bulk **Reveal**, **Redeem**, **Register** and **Trans
 
  Step 19:
 
+- To bulk update. Execute this command `node update.js`, same process. Check the code for more details.
 - To bulk renew. Just bulk **Transfer** all your names into a new wallet passphrase.
 - Create multiple wallets and diversify.
 - For bulk open wallets. Limit it up-to 4K fresh transactions.
