@@ -23,8 +23,7 @@ Step 2: Download Palmreader and Bob(if your Bob version isn't batching capable, 
 - Go to folder **palmreader**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 - Go to folder **bob-wallet**, open a CLI/CMD inside it and install HSD with batching features `npm install handshake-org/hsd#master`
 
-
-## To **open a batch auctions**
+## To open a batch auctions
 
 Step 3: Open Bob in SPV with the wallet credentials you wish to use
 
@@ -34,9 +33,9 @@ Step 4: Go to file open.js and edit and replace the following with your own,
 
 - replace **WWW** with your api-key, example: 4099a24a8e5b874a0adc186854155d65d91f7efd
 
-To get you api-key in Bob, go to **Settings** > **Wallet** > **View API Key**
+To get your api-key in Bob, go to **Settings** > **Wallet** > **View API Key**
 
-- replace **XXX** with your wallet you wish to use, example: wealthiestwallet
+- replace **XXX** with your wallet you wish to use, example: wealthies twallet
 - replace **YYY** with your wallet passphrase or password, example: c@#:H7MF U^?.Sh3%^&\*
 
 Step 5: Now everything is set-up; we can batch transactions.
@@ -51,16 +50,15 @@ Step 8: Open a CLI in **palmreader** > **bin** > **(open a CLI/CMD inside)** the
 
 Step 9: In Palmreader **Debug Log** window monitor and you'll see a keyword " **sending…**" wait until it's done.
 
-Step 10: After a few seconds( more or less 40), your batch open transaction is now finally "**served…**" based on the monitor **Debug Log** or **Wallet History** palmreader windows.
+Step 10: After a few seconds(more or less 40), your batch open transaction is now finally "**served…**" based on the monitor **Debug Log** or **Wallet History** palmreader windows.
 
-Step 11: Inside **open-names.txt** delete or remove the first 100 so that next following names can be open. Save the edited file and execute the same sequence in Step 8. **Repeat until all your names are successfully opened**.
+Step 11: Inside **open-names.txt** delete or remove the first 100 so that the next following names can be open. Save the edited file and execute the same sequence in Step 8. **Repeat until all your names are successfully opened**.
 
 Step 12: Closed palmreader by pressing **Ctrl+C** or **Q**.
 
 Step 13: Go to **Bob Wallet with your wallet credentials** being used. You can check transactions being done there. When everything isn't grayed and totally black means 6 hours have passed and you can now Bid the names you batch opened lately.
 
-
-## To **bid a batch auctions**
+## To bid a batch auctions
 
 Step 14: **Batch Bid all your opened names**. Go to Step 4 and fill with your wallet credentials you wish to use for this task.
 
